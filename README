@@ -1,6 +1,7 @@
 Product TimeLine Compiler
 ==========================
 This program takes a product name and a CTU date in form of a excel file then compiles a visual stack area graph.
+Under file productdB.xlsx, sheet = 'productdB'. input data
 The day zero is placed on the CTU date and is computed by splitting the template timeline in half.
 The file dataRead.py takes in template data under sheet 'dB' and takes in user data in sheet 'productdB', which is both under the productdB.xlsx file.
 ==========================
